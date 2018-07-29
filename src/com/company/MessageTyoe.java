@@ -1,0 +1,15 @@
+package com.company;
+
+public enum MessageTyoe {
+    SIGN_IN_request,
+    SIGN_IN_RESPONSE,
+
+    SIGN_UP_REQUEST,
+    SIGN_UP_RESPONSE,
+
+    SEND_MESSAGE_REQUEST,
+    SEND_MESSAGE_RESPONSE,
+
+    GET_ALL_MESSAGE_REQUEST,
+    GET_ALL_MESSAGE_RESPONSE
+}
